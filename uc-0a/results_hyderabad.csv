@@ -1,0 +1,16 @@
+complaint_id,category,priority,reason,flag
+GH-202401,Flooding,Urgent,Based on description keywords. Mapped to Flooding.,
+GH-202402,Flooding,Standard,Based on description keywords. Mapped to Flooding.,
+GH-202406,Drain Blockage,Standard,Based on description keywords. Mapped to Drain Blockage.,
+GH-202407,Drain Blockage,Standard,Based on description keywords. Mapped to Drain Blockage.,
+GH-202410,Pothole,Standard,Based on description keywords. Mapped to Pothole.,
+GH-202411,Pothole,Urgent,Based on description keywords. Mapped to Pothole.,
+GH-202412,Pothole,Urgent,Based on description keywords. Mapped to Pothole.,
+GH-202417,Waste,Standard,Based on description keywords. Mapped to Waste.,
+GH-202420,Noise,Standard,Based on description keywords. Mapped to Noise.,
+GH-202422,Road Damage,Urgent,Based on description keywords. Mapped to Road Damage.,
+GH-202424,Flooding,Standard,Based on description keywords. Mapped to Flooding.,
+GH-202428,Waste,Standard,Based on description keywords. Mapped to Waste.,
+GH-202432,Other,Standard,Based on description keywords. Mapped to Other.,NEEDS_REVIEW
+GH-202448,Flooding,Standard,Based on description keywords. Mapped to Flooding.,
+GH-202438,Other,Standard,Based on description keywords. Mapped to Other.,NEEDS_REVIEW
