@@ -1,16 +1,12 @@
-# skills.md
-# INSTRUCTIONS: Generate a draft by prompting AI, then manually refine this file.
-# Delete these comments before committing.
-
 skills:
-  - name: [skill_name]
-    description: [One sentence — what does this skill do?]
-    input: [What does it receive? Type and format.]
-    output: [What does it return? Type and format.]
-    error_handling: [What does it do when input is invalid or ambiguous?]
+  - name: load_dataset
+    description: Opens the budget CSV, checks for missing actual_spend values, and reports the exact count and reason for any nulls before proceeding.
+    input: Filepath to the budget CSV (string).
+    output: A list of parsed dictionary records and a validation report.
+    error_handling: Halts execution if the file is unreadable. Logs all null rows.
 
-  - name: [second_skill_name]
-    description: [One sentence]
-    input: [Type and format]
-    output: [Type and format]
-    error_handling: [What does it do when input is invalid or ambiguous?]
+  - name: compute_growth
+    description: Calculates the month-over-month (MoM) or year-over-year (YoY) growth for a specific category and ward, outputting the exact calculation formula.
+    input: Filtered dataset records (list), growth_type (string), ward (string), category (string).
+    output: Writes a CSV with the growth computation, flagging any nulls explicitly.
+    error_handling: Refuses to process if growth_type is missing or if requested to aggregate all wards/categories.
